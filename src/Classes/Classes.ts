@@ -19,7 +19,7 @@ class Player {
         }
     }
 
-    public takeDamge(dmg : number) {  // zwykła funkcja, typ void
+    public takeDamge(dmg : number)  {  // zwykła funkcja, typ void
         this._health -= dmg;
         console.log("Damage taken");
     }
@@ -27,5 +27,5 @@ class Player {
 
 let player1: Player = new Player()
 
-player1.health = 8
+player1.health = -1
 

@@ -6,8 +6,8 @@ let lastName2: number = 2;
 let bool :boolean = true;
 
 // tablice
-let array1 : string[];
-let array2: Array<string>;
+let array1 : string[] = []
+let array2: Array<string> = []
 
 
 // rzutowanie typów, zmiana z jednego na drugi
@@ -16,7 +16,11 @@ console.log(unknown as string)
 console.log(<string>unknown)
 
 // readonly, const
-let cantChange : readonly string[] = []
+let cantChange : readonly string[] 
+
+
+
+
 const cantChangeNormal : string = "";
 
 // tylko do odczytu.. tablica, która przyjmuje tylko te dane podane w tablicy

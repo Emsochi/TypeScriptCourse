@@ -1,12 +1,12 @@
-function doStuff() : void {
+export function doStuff() : void {
 
 }
 
-function doStuff2() {
+export function doStuff2() {
 
 }
 
-function returnType() : string {
+export function returnType() : string {
     return ""
 }
 
