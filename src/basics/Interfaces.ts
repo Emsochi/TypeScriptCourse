@@ -36,3 +36,5 @@ interface Person {
   //      console.log ('Hello, ${this.nameTwo}');
    // }
 //}
+
+//Mamy równiez mozliwosc wskazania danych, ktore moga byc ale nie musza (nie ma obowiazku implementacji). uzywamy wtedy w kluczu znaku zapytania:
