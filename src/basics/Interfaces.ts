@@ -38,3 +38,11 @@ interface Person {
 //}
 
 //Mamy równiez mozliwosc wskazania danych, ktore moga byc ale nie musza (nie ma obowiazku implementacji). uzywamy wtedy w kluczu znaku zapytania:
+
+interface Person {
+    name2: string,
+    age2: number,
+    isdeveloper: boolean;
+    achievements?: string [];
+    greet(): void;
+}
