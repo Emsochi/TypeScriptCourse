@@ -23,7 +23,7 @@ function functio (a: number, b: number): number | null {
     }
     return a+b
 }
-
+// błąd
 //const add= (a:number | string, b: number | string): 
 //number | string => a + b;
 
