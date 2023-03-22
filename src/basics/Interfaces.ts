@@ -46,3 +46,14 @@ interface Person {
     achievements?: string [];
     greet(): void;
 }
+//blad
+//const personA: Person = {
+  //  name2: 'Bartek',
+  //  age2: 123,
+  //  isdeveloper:true,
+   // greet(){
+      //  console.log('Hello, ${this.name2');
+
+   // },
+   // achievements: [Osiagniecie]
+//};
