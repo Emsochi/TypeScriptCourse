@@ -55,5 +55,15 @@ interface Person {
       //  console.log('Hello, ${this.name2');
 
    // },
-   // achievements: [Osiagniecie]
+   // achievements: ['Osiagniecie']
 //};
+//const personB: Person = {
+   // name2: 'Kuba',
+   // age2: 123,
+   // isDeveloper: true,
+  // greet() {
+   //     console.log('Hello, ${this.name2');
+  //  }
+//};
+
+
