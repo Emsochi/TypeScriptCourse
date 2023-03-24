@@ -23,10 +23,18 @@ function functio (a: number, b: number): number | null {
     }
     return a+b
 }
-// błąd
-//const add= (a:number | string, b: number | string): 
-//number | string => a + b;
 
-//console.log(add(2,3));
-//console.log(add('Hello','World'));
+const add = (a: number | string, b: number | string): number | string => {
+    if (typeof a === 'number' && typeof b === 'number') {
+      return a + b;
+    } else if (typeof a === 'string' && typeof b === 'string') {
+      return a + b;
+    } else {
+      throw new Error('Both inputs must be of the same type');
+    }
+  };
+  
+
+console.log(add(2,3));
+console.log(add('Hello','World'));
 

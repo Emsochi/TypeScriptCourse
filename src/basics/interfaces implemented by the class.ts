@@ -22,16 +22,11 @@ interface Human {
     age: number;
 }
 
-interface HistoryClass {
-    history: string [];
-    showHistory(): void;
-}
-
 class Person4 implements Human, HistoryClass {
     name: string;
     surname: string;
     age: number;
-    history: string [];
+    history:  HistoryEntry[];
     showHistory(): void {
         console.log(this.history);
     }

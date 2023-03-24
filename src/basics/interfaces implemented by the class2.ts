@@ -8,12 +8,7 @@ interface Human {
 interface HumanWithRole extends Human {
     role: string;
 }
-class User implements HumanWithRole {
-    name: string;
-    surname: string;
-    age: number;
-    role: string;
-}
+
 interface Human {
     name: string;
     surname: string;
@@ -23,18 +18,18 @@ interface HistoryEntry {
     createdAt: Date;
     event: string;
 }
-//błąd
+
 interface HistoryClass {
-    history: HistoryEntry [];
+    history: HistoryEntry[];
 }
 
-Class User implements Human, HistoryClass {
+class User implements Human, HistoryClass {
     name: string;
     surname: string;
     age: number;
-    history: HistoryEntry [] = [];
+    history: HistoryEntry[] = []
 
-}
+
 constructor (name: string, surname: string, age:number) {
     this.name = name;
     this.surname;
@@ -46,7 +41,7 @@ showHistory(): void {
 }
 
 addHistory(entry): void {
-    this.history = entry;
+   // this.history = entry;
 }
 }
 
