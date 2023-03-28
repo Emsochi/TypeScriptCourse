@@ -6,4 +6,4 @@ abstract class Animal10 {
     ){}
 }
 
-const duck = new Animal10 ('duck')
+//const duck = new Animal10 ('duck')
