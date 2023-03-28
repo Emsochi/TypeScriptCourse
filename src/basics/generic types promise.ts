@@ -9,12 +9,12 @@ interface SingleToDo {
     completed: boolean;
 }
 
-async function getToDo(id:number): Promise<SingleToDo>{
-    const response = await fetch('https://jsonplaceholder.typicode.com/todos/${id}')
-    return await response.json();
-}
-(async ()=> {
-    const todo=await getToDo(10);
-    console.log(todo.title);
+//async function getToDo(id:number): Promise<SingleToDo>{
+  //  const response = await fetch('https://jsonplaceholder.typicode.com/todos/${id}')
+  //  return await response.json();}
 
-})();
+//(async ()=> {
+   // const todo=await getToDo(10);
+   // console.log(todo.title);
+
+//})();
